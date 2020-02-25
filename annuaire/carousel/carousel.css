@@ -1,0 +1,61 @@
+section {
+  width: 40em;
+  height: 25em;
+  margin: 220px 250px 250px 290px;
+  position: relative;
+}
+
+li,#ig_c{
+  width: 500px;
+  height: 281px;
+  display: inline-block;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+  /*box-shadow: 50px 50px black;*/
+}
+
+li p {
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 1.175em;
+}
+
+.items {
+  position: absolute;
+}
+
+.main-pos {
+  margin-left: 2em !important;
+  z-index: 3000;
+  /*background-image: url('https://dl.dropbox.com/u/32649907/imgs/shadow.png');*/
+}
+
+.left-pos {
+  opacity: .8;
+  margin-left: -16em !important;
+  z-index: 1000;
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  transform: scale(.75);
+}
+
+.back-pos {
+  margin-left: 2em !important;
+  opacity: .05;
+  -webkit-transform: scale(.2);
+  -moz-transform: scale(.2);
+  transform: scale(.2);
+}
+
+.right-pos {
+  opacity: .8;
+  margin-left:  22em !important;
+  z-index: 1000;
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  transform: scale(.75);
+}

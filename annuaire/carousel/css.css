@@ -1,0 +1,135 @@
+img{
+    margin-left: 1px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+}
+h3{
+    float:right;
+}
+strong{
+    float: right;
+    margin-left: 80px;
+    font-size:20px;
+    text-transform: uppercase;
+}
+textarea{
+    background-color: transparent;
+    color: white;
+}
+#cherch,button{
+    position: relative;
+    left: 300px;
+    top: 50px;
+    height: 30px;
+}
+button {
+  width: 30px;
+  background-color: transparent;
+  color: red;
+  font-size: 17px;
+  cursor: pointer;
+}
+#logo{
+    float: left;
+    margin-left: 100px;
+}
+#icon{
+    float: right;
+    margin-right: 100px;
+}
+.tet{
+    background-image:url('se.jpg') ;
+    background-position: fixed;
+    background-attachment:fixed;
+    width: 100%;
+    height: 650px;
+}
+.descrip{
+    background-image:url('desc.png') ;
+    background-size: 1400px 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: -30px;
+}
+pre{
+    font-size: 20px;
+    color: white;
+    padding: 150px 150px;
+}
+.para1{
+    background-image:url('sem.jpg') ;
+    background-position: right;
+    background-position: 90% 90%;
+    background-attachment:fixed;
+    margin-right: 20px;
+    width: 100%;
+    height: 650px;
+}
+input{
+    background-color: transparent;
+   
+    
+}
+span{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.footer{
+    color:white;
+    padding: 35px;
+    background-color: #1f1e1e;
+    margin-bottom: 0px; 
+
+}
+
+.tab{
+    padding-top: 100px;
+}
+form{
+    border: solid black 2px;
+    margin-left: 270px;
+    margin-right: 280px;
+    background-color: black;
+
+}
+nav{
+    position: absolute;
+    left: 280px;
+    top: 150px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 50px 10px 50px;
+}
+nav a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px 50px 10px 50px;
+    background-image: linear-gradient(#6c2e16, #fbd8c5, #97461a);
+}
+.div1{
+    float: left;
+    
+}
+#submit{
+    color:white;
+    margin-left: 250px;
+}
+body{
+ margin: 0px;
+ padding: 0px;
+ background-color: #343028;
+    
+}
+
